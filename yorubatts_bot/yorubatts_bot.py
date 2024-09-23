@@ -38,5 +38,6 @@ class SimpleChatHandler(ChatHandler):
 
 
 def main():
+    print("Starting server")
     chat_handler = SimpleChatHandler(debug=False, start_proxy=False)
-    chat_handler.start(5000)
+    chat_handler.start("0.0.0.0", 5000)

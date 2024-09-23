@@ -1653,13 +1653,13 @@ watchdog = ["watchdog (>=2.3)"]
 
 [[package]]
 name = "whatsapp-framework"
-version = "0.1.20"
+version = "0.1.21"
 description = "Whatsapp framework simplifies building and deploying whatsapp based application"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "whatsapp_framework-0.1.20-py3-none-any.whl", hash = "sha256:d99cd75a98be1e2551e5ac479bc48b6d2e6a9bfcd4e2a982551ccd4ae3200cb3"},
-    {file = "whatsapp_framework-0.1.20.tar.gz", hash = "sha256:70341c11eaf619a10464c9d1e2a0f5da8ae583160d389163a2ecb8b9f5d45d5a"},
+    {file = "whatsapp_framework-0.1.21-py3-none-any.whl", hash = "sha256:0f9cf6f5e16eed87685c02af34e97aa0f813f38217273917caf4f312ff359355"},
+    {file = "whatsapp_framework-0.1.21.tar.gz", hash = "sha256:821767a67902bffe6bb51cb6a4966bca03fd789da8d7242bd71ae7d2abe6dc21"},
 ]
 
 [package.dependencies]
