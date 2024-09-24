@@ -16,7 +16,7 @@ generation_config = {
 model = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
     generation_config=generation_config,  # type: ignore
-    system_instruction="Convert the following text to yoruba",
+    system_instruction="Translate the following text to yoruba. Please do not do anything else!",
 )
 
 chat_session = model.start_chat(history=[])
